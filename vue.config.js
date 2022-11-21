@@ -8,6 +8,8 @@ module.exports = defineConfig({
     compress: true,
     inline: true,
     port: '8080',
-    allowedHosts: "all"
+    allowedHosts: "all",
+    disableHostCheck: true,
+    host: "0.0.0.0"
   }
 })
